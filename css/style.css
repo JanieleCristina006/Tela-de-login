@@ -1,0 +1,109 @@
+body{
+    background-color:#00008B;
+    max-width: 100%;
+    
+}
+
+
+.pai{
+    max-width: 100%;
+    width: 950px;
+    height: 550px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 6%;
+    
+}
+
+.filho{
+    display: flex;
+    align-items: center;
+    width: 475px;
+   background-color: aquamarine;
+   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+form{
+    margin:0 auto;
+    width: 200px;
+    padding-right: 3rem;
+    
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: #F8F8FF;
+}
+
+input:not(input[type="checkbox"]){
+   font-family: 'Sora', sans-serif;
+   font-weight:bold 700;
+   width: 250px;
+   border: 0;
+   border-radius: 0.25rem;
+   height: 1.5rem; 
+   margin-top: 1rem;
+   padding: 5px;
+   background-color: #DCD9D4;
+
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+ background-blend-mode: soft-light,screen;
+}
+ 
+.check {
+   font-size: 0.75rem;
+   font-family: 'sora', sans-serif;
+    font-weight: bold;
+  }
+
+  input[type="checkbox"]{
+    min-width: 15px;
+    min-height: 15px;
+    margin-right: 3px;
+  }
+
+
+label{
+    font-size: 1.5rem;
+    color: #DCD9D4;
+    font-family: 'sora',sans-serif;
+}
+
+button{
+    padding: 17px;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 74px;
+    margin-top: 4rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: #0000FF;
+    color: aliceblue;
+    font-weight: bold;
+    transition: border-color 0.5s ease-out;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: green;
+    color: black;
+    transition: 1s;
+    -webkit-filter: drop-shadow(10px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+
+}
+
+input:hover{
+    border: 1px solid rgb(110, 148, 207);
+}
+
+
+
+
+
+
+
+
+
